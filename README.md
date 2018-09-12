@@ -1,6 +1,8 @@
 ## Shortstack Star Wars
 
-- In Terminal Run: ``psql -f your_answers.sql``
+### Instructions
+
+In Terminal Run: ``psql -f shortstack_starwars.sql``
 
 Add in your SQL commands to complete each numbered exercise in the SQL file. 
 
