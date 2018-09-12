@@ -1,19 +1,7 @@
-CREATE DATABASE shortstack_starwars;
-
 \c shortstack_starwars;
 
-DROP TABLE IF EXISTS jedis;
-
-CREATE TABLE jedis (
-  id serial PRIMARY KEY,
-  name varchar(50) NOT NULL,
-  lightsaber_color varchar(50) NOT NULL,
-  years_training integer NOT NULL,
-  tempted_by_dark_side boolean NOT NULL,
-  temptation varchar(50) NOT NULL
-);
-
-INSERT INTO jedis (name, lightsaber_color, years_training, tempted_by_dark_side, temptation) VALUES
+INSERT INTO jedis (name, lightsaber_color, years_training, tempted_by_dark_side, temptation)
+VALUES
   ('Darth Rashad', 'white', 14, FALSE, 'green slime'),
   ('Andrew Fett', 'blue', 12, FALSE, 'negative film'),
   ('Linda Sideous', 'gray', 15, FALSE, 'soccer'),
